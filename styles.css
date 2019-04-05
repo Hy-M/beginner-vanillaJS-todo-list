@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.todo {
+  margin-top: 2rem;
+  padding: 2rem 4rem;
+  border-radius: 4px;
+  background: #1d2125;
+  width: 90%;
+  min-width: 480px;
+  height: 768px;
+  color: white;
+  overflow: scroll;
+}
+
+.todo__header {
+  padding: 1rem 0;
+}
+
+.todo__title {
+  margin: 1rem;
+  text-align: center;
+}
+
+.todo__input {
+  width: 100%;
+  border-radius: 4px;
+  padding: 1rem 1.2rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.todo__item {
+  list-style-type: none;
+  padding: 1rem 1.2rem;
+  border-bottom: 2px #e0ad02 solid;
+}
+
+.todo__item:hover {
+  cursor: default;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #aaaaaa;
+  border-bottom-color: #413420;
+}
+
+.todo__delete {
+  float: right;
+  font-size: 0.8rem;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+/* .todo__edit {
+  float: right;
+  font-size: 1rem;
+  padding: 0 5px;
+  cursor: pointer;
+} */
+
+/* .todo__edit:hover,  */
+.todo__delete:hover {
+  color: #e0ad02;
+}
